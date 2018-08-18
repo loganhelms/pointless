@@ -1,0 +1,15 @@
+{
+  "name": "pointless",
+  "version": "0.1.0",
+  "description": "An extended functional programming library of Ramda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Logan Helms",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
