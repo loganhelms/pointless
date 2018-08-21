@@ -16,3 +16,5 @@ class IO {
                     return new IO(() => fn(self.effect()))
                   }
 }
+
+module.exports = IO
