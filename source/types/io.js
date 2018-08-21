@@ -1,8 +1,9 @@
-const isFunction = require('./isFunction')
+const { not } = require('ramda')
+const isFunction = require('../predicates/isFunction')
 
 class IO {
   constructor(effect) {
-    if (isFunction(effect)) throw 'IO Usage: function required'
+    if (not(isFunction(effect))) throw 'IO Usage: function required'
     this.effect = effect
   }
 
