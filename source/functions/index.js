@@ -1,11 +1,13 @@
 'use strict'
 
-const freezeDeep    = require('./freezeDeep')
-const keys          = require('./keys')
-const safeParseJson = require('./safeParseJson')
+const freezeDeep        = require('./freezeDeep')
+const safeParseJson     = require('./safeParseJson')
+const safeReadFileSync  = require('./safeReadFileSync')
+const writeFileSync     = require('./writeFileSync')
 
 module.exports = {
   freezeDeep,
-  keys,
   safeParseJson,
+  safeReadFileSync,
+  writeFileSync,
 }
