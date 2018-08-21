@@ -1,5 +1,5 @@
-const { not } = require('ramda')
-const isFunction = require('../predicates/isFunction')
+const { not }     = require('ramda')
+const isFunction  = require('../predicates/isFunction')
 
 class IO {
   constructor(effect) {
