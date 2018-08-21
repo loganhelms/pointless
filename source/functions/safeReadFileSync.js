@@ -5,10 +5,10 @@ const Either    = require('../types/either')
 /**
  * Reads contents from a file
  *
- * @sig
+ * @sig s -> s -> {Either}
  * @param {String} encoding The encoding
  * @param {String} filename The filename including extention
- * @return {Eiter} Results of read
+ * @return {Either} Results of read
  */
 const safeReadFileSync = curry((encoding, filename) => {
   try {
